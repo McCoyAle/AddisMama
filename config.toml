@@ -1,3 +1,108 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://example.com/"
+languageCode = "en"
+title = "Initio - Free, multipurpose html5 template by GetTemplate"
+theme = "hugo-initio"
+
+[params]
+    name = "AddisMama"
+    description = "Just a mom who enjoys playing with software"
+    phone = "Email: mccoyale@gmail.com"
+    year = 2022
+    avatar = "images/profile.jpg"
+    avatarclass = "circle"
+    background = ""
+    banner = "images/coolmom.jpeg"
+    favicon = "images/gt_favicon.png"
+    DateForm = "January 2, 2006"
+    author = "Sergey Pozhilov (GetTemplate.com)"
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = true
+    showDownloads = true
+    showClients = false
+
+    showFooterContact = true
+    showFooterFollowMe = true
+    showFooterTextWidget = true
+    showFooterFormWidget = false
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "blog"
+    url = "/post/"
+    weight = 5
+[[menu.main]]
+    name = "projects"
+    url = "/project/"
+    weight = 1
+
+[params.disqus]
+    site = "hugo-initio-site.disqus.com"
+
+[params.sharethis]
+    property = "123456789012345678901234"
+    custom = true
+
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
+
+[[params.social]]
+	title = "facebook"
+	url = "https://www.facebook.com/nickname"
+    icon = "fab fa-facebook-square"
+    footer = false
+    sharethis = false
+    network = "facebook"
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/AddisMama17"
+    icon = "fab fa-twitter-square"
+    footer = true
+    sharethis = true
+    network = "twitter"
+[[params.social]]
+	title = "instagram"
+	url = "https://www.instagram.com/vmwareenthusiast"
+    icon = "fab fa-instagram"
+    footer = true
+    sharethis = true
+    network = ""
+[[params.social]]
+	title = "google+"
+	url = "https://plus.google.com/+nickname"
+    icon = "fab fa-google-plus-square"
+    footer = false
+    sharethis = false
+    network = "googleplus"
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/alexandramccoy17"
+    icon = "fab fa-linkedin"
+    footer = true
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+	title = "tumblr"
+	url = "https://nickname.tumblr.com"
+    icon = "fab fa-tumblr-square"
+    footer = false
+    sharethis = false
+    network = "tumblr"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/McCoyAle"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = true
+    network = "github"
+[[params.social]]
+	title = "email"
+	url = "mailto:mccoyale@gmail.com"
+    icon = "fas fa-envelope-square"
+    footer = false
+    sharethis = true
+    network = "email"
